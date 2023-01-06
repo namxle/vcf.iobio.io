@@ -60,13 +60,9 @@ section {
     display:         flex;
     display: -ms-flexbox;
 
-    -webkit-flex-flow: row;
-           -flex-flow: row;
+    /* -webkit-flex-flow: row;
+-flex-flow: row; */
 }
-
-section#top {
-}
-
 
 
 
@@ -113,7 +109,6 @@ section#top {
 
 .global-panel .instruction {
     font-size: 10px;
-    rgb(170,170,170);
 }
 
 .avg line {

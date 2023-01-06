@@ -619,7 +619,7 @@ function displayReportProblem() {
 
 
   $('#report-problem-screen-capture').html("");
-  $('#report-problem-screen-capture').append( '<section id="banner">' + $('section#banner').html() + '</section>');
+//   $('#report-problem-screen-capture').append( '<section id="banner">' + $('section#banner').html() + '</section>');
   $('#report-problem-screen-capture').append( '<section id="top">'    + $('section#top').html()    + '</section>');
   $('#report-problem-screen-capture').append( $('section#middle').html());
   $('#report-problem-screen-capture').append( $('section#bottom').html());
